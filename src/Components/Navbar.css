@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: #280404;
+  color: white;
+}
+
+.navbar-left {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* LOGIN / SIGNUP */
+.nav-btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #db2020;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-btn.outline {
+  background: transparent;
+  border: 1px solid #661411;
+}
+
+.nav-btn:hover {
+  background: #7d3810;
+}
+
+/* PROFILE */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  background: #db2020;
+  padding: 6px 10px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+/* TRASH */
+.trash-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* LOGOUT */
+.logout-btn {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}

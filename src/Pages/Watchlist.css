@@ -1,0 +1,259 @@
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+background: linear-gradient(
+    to left,
+    #450404,   /* light grey-blue */
+    #731003    /* soft grey */
+  );
+}
+/* ===== CONTAINER ===== */
+.watchlist-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== TOP BAR ===== */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-bar h2 {
+  margin: 0;
+}
+
+.top-bar button {
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.top-bar button:hover {
+  background: #e63939;
+}
+
+/* ===== ADD BUTTON ===== */
+.add-btn {
+  background: #2d0505;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.add-btn:hover {
+  background: #432121;
+}
+
+/* ===== SEARCH & FILTER ===== */
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-bar input,
+.filter-bar select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+/* ===== MOVIE GRID ===== */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* ===== MOVIE CARD ===== */
+.movie-card {
+  background: #111111;
+  color: rgb(203, 153, 87);
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.movie-card p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #fbeeee;
+}
+
+/* ===== RATING ===== */
+.rating span {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+/* ===== BUTTON GROUP ===== */
+.movie-card button {
+  margin-top: 8px;
+  margin-right: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* USER BUTTON */
+.movie-card button:nth-child(1) {
+  background: #ffe4e6;
+}
+
+/* ADMIN BUTTONS */
+.movie-card button:last-child {
+  background: #ef4444;
+  color: #fff;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  .filter-bar {
+    flex-direction: column;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* =========================
+   RESPONSIVE BREAKPOINTS
+   ========================= */
+
+/* Tablets (≤ 900px) */
+@media (max-width: 900px) {
+  .watchlist-container {
+    padding: 15px;
+  }
+
+  .movie-list {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .movie-card {
+    padding: 14px;
+  }
+}
+
+/* Mobile (≤ 600px) */
+@media (max-width: 600px) {
+  /* Top bar stacks */
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .top-bar h2 {
+    font-size: 18px;
+  }
+
+  /* Add button full width */
+  .add-btn {
+    width: 100%;
+  }
+
+  /* Search & filter stack */
+  .filter-bar {
+    flex-direction: column;
+  }
+
+  .filter-bar input,
+  .filter-bar select {
+    width: 100%;
+  }
+
+  /* Cards full width */
+  .movie-list {
+    grid-template-columns: 1fr;
+  }
+
+  /* Buttons touch friendly */
+  .movie-card button {
+    width: 100%;
+    margin: 6px 0;
+  }
+
+  /* Rating stars bigger */
+  .rating span {
+    font-size: 22px;
+  }
+}
+
+.movie-poster {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+
+.back-btn {
+  position: fixed;
+  top: 90px;              /* navbar height kazhinju */
+  left: 20px;             /* LEFT EDGE */
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  background: #222;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+  transition:  0.3s ease;
+}
+
+.back-btn:hover {
+  text-decoration: none;
+}
+
+
+.remove-fav-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+
+  background: transparent;
+  color: #f87171;
+
+  border: 1px solid #f87171;
+  border-radius: 6px;
+
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.remove-fav-btn:hover {
+  background: #f87171;
+  color: #ffffff;
+}

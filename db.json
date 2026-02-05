@@ -1,0 +1,207 @@
+{
+  "movies": [
+    {
+      "id": "6d39",
+      "title": "Ted",
+      "genre": "Comedy",
+      "year": "2012",
+      "duration": " 1h 46m",
+      "description": "A wish comes true for John when his teddy bear, Ted, comes to life. When he plans to move in with his girlfriend, Ted, who is not prepared for the change, unintentionally ruins their relationship.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/d/d4/Ted_%28film%29.png",
+      "rating": 2,
+      "favourite": false,
+      "isDeleted": false,
+      "favourites": []
+    },
+    {
+      "id": "3828",
+      "title": "Predator",
+      "genre": "Action",
+      "year": "1987",
+      "duration": "1h 47m",
+      "description": "Dutch and his team are out on a mission to rescue a group of hostages in Central America. There, they discover that they are being targeted by an extraterrestrial warrior",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPpktfS4wlGRGc3yneMkCIqXgyeWbfVT5d-6KBIsjxX0VznboSYjgRmMa61yLEibRYlBnlyQ&s=10",
+      "rating": 3,
+      "favourite": false,
+      "isDeleted": false,
+      "favourites": [
+        "yasmin@gmail.com"
+      ]
+    },
+    {
+      "id": "8d67",
+      "title": "The Lost City of Z",
+      "genre": "Adventure",
+      "year": "2016",
+      "duration": "2h 21m",
+      "description": "A former British military man explores the Amazon in search of a lost city. His innocent quest turns into an obsession that taints his relationship with his family and ultimately, himself.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmU2ODIyMWItMjU3Zi00ZmVhLWIyNDAtMWE5OWU2ZDExMGFiXkEyXkFqcGc@._V1_.jpg",
+      "rating": 4,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "998d",
+      "title": "Wildlife",
+      "genre": "Drama",
+      "year": "2018",
+      "duration": "Wildlife",
+      "description": "A teenage boy must deal with his mother's complicated response after his father temporarily abandons them to take a menial and dangerous job. After Jerry is fired from his job,",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJXBptqjH1kIni2iJqiGR2PhdLpaLjWi8YNSlXanez1FsbYawS",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false,
+      "favourites": []
+    },
+    {
+      "id": "5685",
+      "title": "It",
+      "genre": "Horror",
+      "year": "2017",
+      "duration": "2h 15m",
+      "description": "Seven helpless and bullied children are forced to face their worst nightmares when Pennywise, a shape-shifting clown, reappears. The clown, an ancient evil torments children before feeding on them.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/5/5a/It_%282017%29_poster.jpg",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "04be",
+      "title": "Anyone But You",
+      "genre": "Romance",
+      "year": "2023",
+      "duration": "1h 43m",
+      "description": " American romantic comedy film starring Sydney Sweeney and Glen Powell. Despite having an amazing first date, Bea and Ben's initial attraction quickly turns sour.perfect couple to keep up appearances. ",
+      "poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSY6VehB6daS7Wulg-iHHKULOLEYP_dOwOEkXBwpb9K95caO3C",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "0718",
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "year": "2010",
+      "duration": " 2h 28m",
+      "description": "Cobb steals information from his targets by entering their dreams. He is wanted for his alleged role in his wife's murder and his only chance at redemption is to perform a nearly impossible task.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "rating": 5,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "9a4d",
+      "title": "Fractured",
+      "genre": "Thriller",
+      "year": "2019",
+      "duration": "1h 40m",
+      "description": "Ray and Joanne rush Peri, their daughter, to the nearest hospital after she fractures her hand in a fall. However, when the mother-daughter duo disappears, Ray struggles to find them.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzE0NzhhMTQtOThiZS00ZWQ5LTllNjktZTNmOTQzNTI1MGNkXkEyXkFqcGc@._V1_.jpg",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "82e0",
+      "title": "The Lord of the Rings",
+      "genre": "Fantasy",
+      "year": "2001",
+      "duration": "2h 58m",
+      "description": "A ring with mysterious powers lands in the hands of a young hobbit, Frodo. Under the guidance of Gandalf, a wizard, he and his three friends set out on a journey and land in the Elvish kingdom.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "7dd2",
+      "title": "Moana 2",
+      "genre": "Animation",
+      "year": "2024",
+      "duration": "1h 40m",
+      "description": "After receiving an unexpected call from her wayfinding ancestors, a strong-willed girl journeys with her crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure",
+      "poster": "https://m.media-amazon.com/images/I/91ma+sVqXgL._AC_UF1000,1000_QL80_.jpg",
+      "rating": 3,
+      "favourite": false,
+      "isDeleted": false,
+      "favourites": []
+    },
+    {
+      "id": "8737",
+      "title": "Sicario",
+      "genre": "Crime",
+      "year": "2915",
+      "duration": "2h 1m",
+      "description": " American action crime thriller film directed by Denis Villeneuve, During a dangerous mission to stop a drug cartel operating between the US and Mexico, Kate Macer, an FBI agent, is exposed to some harsh realities.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjA5NjM3NTk1M15BMl5BanBnXkFtZTgwMzg1MzU2NjE@._V1_.jpg",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false,
+      "favourites": [
+        "yasmin@gmail.com"
+      ]
+    },
+    {
+      "id": "9ef4",
+      "title": "Senna",
+      "genre": "Documentary",
+      "year": "2010",
+      "duration": "Senna",
+      "description": "Ayrton Senna becomes a three-time Formula One racing champion and Brazil's national hero before his untimely death at age 34.Senna is a 2010 documentary film that depicts the life and,",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaOJezvV79yk5yFC7bOXKbdLFYU_4IOfB3SWS4vELtOlK4P2nn68cAacl3_MmgpYnD3EwOYw&s=10",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "ce69",
+      "title": "Wake Up Dead Man",
+      "genre": "Crime",
+      "year": "2025",
+      "duration": "2h 24m",
+      "description": "A baffling death inside a quiet church draws Benoit Blanc into a tense investigation where faith secrets and suspicion blur as a close community turns against itself.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmUqEcWkfL4LOgYcxG8pz2YLhyAWosGrH1-Z0JCu1-Bsd1d6RiYHLVmowzxUdetVrVqafGfG97Ax78Xe0H0lTGB4mjJP_elQgo5568w&s",
+      "rating": 2,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "15e7",
+      "title": "Zootopia",
+      "genre": "Animation",
+      "year": "2010",
+      "duration": " 1h 48m",
+      "description": "When Judy Hopps, a rookie officer in the Zootopia Police Department, sniffs out a sinister plot, she enlists the help of a con artist to solve the case in order to prove her abilities to Chief Bogo",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/c6e94cf99873500525cbeb74c594e67e133212d2ef3eba90f08eb1aa8659d3a5.jpg",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false
+    },
+    {
+      "id": "64cd",
+      "title": "Knight and Day",
+      "genre": "Action",
+      "year": "2010",
+      "duration": " 1h 49m",
+      "description": "When June meets Roy, a lethal operative, in an unlikely encounter, she gets entangled in his adventures and falls in love with him. However, she has to figure out whether he's a traitor or a good guy.",
+      "poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQOz5fCMidWJ3456QEjOhbw_B0XpfjNtenbnhFy7z6Ohk2xZZ73",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false,
+      "favourites": []
+    },
+    {
+      "id": "1fe2",
+      "title": "Don't Move",
+      "genre": "Horror",
+      "year": "2024",
+      "duration": "1h 32m",
+      "description": "Iris, a grieving mother, faces a horrific abduction by a man who pretends to be her rescuer. She fights to reclaim her power and discovers her will to live through the turmoil.",
+      "poster": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSuulQxdDMiYMGlJrQwvnY-iwz1eDKFV3a5O7ODvx829TZEUhS0",
+      "rating": 0,
+      "favourite": false,
+      "isDeleted": false
+    }
+  ],
+  "users": []
+}

@@ -1,0 +1,21 @@
+.btn {
+  position: fixed;
+  top: 90px;              /* navbar height kazhinju */
+  left: 20px;             /* LEFT EDGE */
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  background: #222;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+  transition:  0.3s ease;
+}
+
+.btn:hover {
+  text-decoration: none;
+}

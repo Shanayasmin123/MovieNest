@@ -1,0 +1,78 @@
+.movie-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+}
+
+.movie-poster {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.movie-card h3 {
+  margin: 6px 0;
+}
+
+/* .movie-card p {
+  font-size: 14px;
+  color: #e4dfdf;
+} */
+
+.desc{
+  font-size: 13px;
+  color: rgb(177, 172, 172)!important;
+}
+
+
+
+/* ⭐ Rating */
+.rating span {
+  font-size: 20px;
+  cursor: pointer;
+  color: #cbd5e1;
+}
+
+.rating span.active {
+  color: gold;
+}
+
+/* ❤️ Favourite */
+.fav-btn {
+  width: 100%;
+  margin-top: 8px;
+  background: #ffe4e6;
+  border: none;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* 👑 Admin buttons */
+.admin-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.admin-actions button {
+  flex: 1;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-actions .danger {
+  background: #ef4444;
+  color: white;
+}
+
